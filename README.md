@@ -4,8 +4,8 @@ Implementation of a CPU scheduler using Red-Black Trees. Similar to the Linux Co
 
 ### TO-DO
 Project is divided in two parts (reflected as two separate C++ modules in source code):
-- [] Write Red-Black Tree data structure
-- [] Implement scheduler using data structure
+- [ ] Write Red-Black Tree data structure
+- [ ] Implement scheduler using data structure
 
 ## Red-Black Tree:
 A type of self-balancing binary search tree. <br>
@@ -15,15 +15,16 @@ This data structure follows four rules:
 3. No two red nodes are adjacent to each other
 4. Every path from a node to any descendant sentinel node has the same number of black nodes
 
-![Image of Red-Black Tree] (./assets/redblacktree.png)
+![Image of Red-Black Tree] 
+(./assets/redblacktree.png)
 
 ### Operations in Red-Black Tree:
-- [] Display
-- [] Search
-- [] Check validity
-- [] Enforce validity
-- [] Insertion
-- [] Deletion
+- [ ] Display
+- [ ] Search
+- [ ] Check validity
+- [ ] Enforce validity
+- [ ] Insertion
+- [ ] Deletion
 
 ## Scheduler
 Uses the following algorithm (which can be found on [wikipedia](https://en.wikipedia.org/wiki/Completely_Fair_Scheduler#Algorithm)):
