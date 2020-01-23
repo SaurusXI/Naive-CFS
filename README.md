@@ -16,7 +16,7 @@ This data structure follows four rules:
 4. Every path from a node to any descendant sentinel node has the same number of black nodes
 
 ![Image of Red-Black Tree] 
-(./assets/redblacktree.png?raw=true "Title") <img src="./assets/redblacktree.png>
+(./assets/redblacktree.png?raw=true "Title") <img src="./assets/redblacktree.png">
 
 ### Operations in Red-Black Tree:
 - [ ] Display
