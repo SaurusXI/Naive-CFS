@@ -1,13 +1,13 @@
 #ifndef _TREE_
 #define _TREE_
+#define RED		1
+#define BLACK	2
 #include <stdio.h>
 #include <stdlib.h>
 #include <string>
 #include <iostream>
  using namespace std;
 
-#define RED		1
-#define BLACK	2
  
 struct node {
 	int key;
@@ -296,9 +296,5 @@ void rbdelete(_nodeptr *treeroot, int z) {
 	}
 	if (yoc == BLACK)
 		rbdeletefixup(treeroot,x);
-}
-
-void execute(_nodeptr treeroot) {
-
 }
 #endif
